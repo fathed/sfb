@@ -8,6 +8,5 @@ foreach (new DirectoryIterator($path) as $file) {
         array_push($arr , $file->getFilename());
     }
 }
-
 echo json_encode($arr);
 ?>
