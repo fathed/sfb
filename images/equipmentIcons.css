@@ -1,0 +1,26 @@
+/* ----------------------------------------------------
+   created with http://www.codeandweb.com/texturepacker 
+   ----------------------------------------------------
+   $TexturePacker:SmartUpdate:4fb2da4984a7944ff5956f29350ea0e1:79b3fc332c021ad96040c4ac843067d4:a96a3fcbe12231c7024f5db988a2ad90$
+   ----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.equipment {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(equipmentIcons.png);}
+
+.antenna {width:91px; height:89px; background-position: -2px -341px}
+.antenna2 {width:52px; height:77px; background-position: -2px -432px}
+.ctm100 {width:161px; height:35px; background-position: -2px -92px}
+.flexMux {width:161px; height:32px; background-position: -2px -129px}
+.panel1 {width:210px; height:88px; background-position: -2px -2px}
+.patch1 {width:95px; height:86px; background-position: -2px -253px}
+.patch2 {width:55px; height:86px; background-position: -193px -280px}
+.patch3 {width:92px; height:86px; background-position: -99px -280px}
+.radio1 {width:77px; height:95px; background-position: -165px -92px}
+.radio2 {width:108px; height:88px; background-position: -2px -163px}
+.sep {width:99px; height:89px; background-position: -112px -189px}
+.tfoca {width:52px; height:89px; background-position: -95px -368px}

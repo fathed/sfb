@@ -1,0 +1,19 @@
+/* ----------------------------------------------------
+   created with http://www.codeandweb.com/texturepacker 
+   ----------------------------------------------------
+   $TexturePacker:SmartUpdate:7258425944c7a38f2fcb5dfa17f59dad:47cab576d7da61074607d336ce730281:dd34feba5c8e1998a5ac541e82e565a8$
+   ----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.objectiveMapLinks {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(objectiveMapLinks.png);}
+
+.blueCircle {width:55px; height:28px; background-position: -26px -26px}
+.connH {width:100px; height:10px; background-position: -26px -2px}
+.connHU {width:100px; height:10px; background-position: -26px -14px}
+.connV {width:10px; height:100px; background-position: -2px -2px}
+.connVU {width:10px; height:100px; background-position: -14px -2px}

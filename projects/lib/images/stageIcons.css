@@ -1,0 +1,23 @@
+/* ----------------------------------------------------
+   created with http://www.codeandweb.com/texturepacker 
+   ----------------------------------------------------
+   $TexturePacker:SmartUpdate:5d90735362c15b22e3a5daf2529ab35d:c1ecc19dd0725a6752a352a370715de5:3d81ed16e9b1c48eaed1e2b4c00bffd8$
+   ----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.stageIconsSprites {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(stageIcons.png);}
+
+.cloudSmall {width:54px; height:32px; background-position: -5px -5px}
+.genericCircleSmall {width:29px; height:29px; background-position: -64px -29px}
+.genericPortLarge {width:54px; height:19px; background-position: -64px -5px}
+.genericPortSmall {width:29px; height:19px; background-position: -5px -110px}
+.multiplexer {width:29px; height:29px; background-position: -5px -42px}
+.triangleDown {width:29px; height:29px; background-position: -39px -63px}
+.triangleLeft {width:29px; height:29px; background-position: -5px -76px}
+.triangleRight {width:29px; height:29px; background-position: -73px -63px}
+.triangleUp {width:29px; height:29px; background-position: -39px -97px}

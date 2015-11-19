@@ -1,0 +1,10 @@
+
+                <div>
+                    <input type="text" placeholder="Title" value="the title" readonly="readonly"><br>
+                    <input type="text" placeholder="Add Title Information" value="subtitle" readonly="readonly"><br>
+
+                </div>
+                <div id="taskListItems">
+                <div class="tlItem" id="tli_0"><input type="text" class="taskListStepTitle" placeholder="Enter step" value="1" readonly="readonly"><br><textarea rows="4" class="taskListStepBody" placeholder="Enter any extra information" readonly="readonly">rtgrer</textarea><br></div><div class="tlItem" id="tli_1"><input type="text" class="taskListStepTitle" placeholder="Enter step" value="2" readonly="readonly"><br><textarea rows="4" class="taskListStepBody" placeholder="Enter any extra information" readonly="readonly">34trew</textarea><br></div><div class="tlItem" id="tli_2"><input type="text" class="taskListStepTitle" placeholder="Enter step" value="3" readonly="readonly"><br><textarea rows="4" class="taskListStepBody" placeholder="Enter any extra information" readonly="readonly">ssfdfdf</textarea><br></div><div class="tlItem" id="tli_3"><input type="text" class="taskListStepTitle" placeholder="Enter step" value="4" readonly="readonly"><br><textarea rows="4" class="taskListStepBody" placeholder="Enter any extra information" readonly="readonly">56ytrerwe</textarea><br></div><div class="tlItem" id="tli_4"><input type="text" class="taskListStepTitle" placeholder="Enter step" value="5" readonly="readonly"><br><textarea rows="4" class="taskListStepBody" placeholder="Enter any extra information" readonly="readonly">dfref</textarea><br></div></div>
+
+            

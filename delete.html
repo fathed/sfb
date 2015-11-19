@@ -1,0 +1,4609 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>NIPR</title>
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+        <link href="css/smoothness/jquery-ui-1.10.2.custom.min.css" rel="stylesheet" type="text/css">
+        <link href="images/diagramIcons.css" rel="stylesheet" type="text/css">
+        <link href="images/equipmentIcons.css" rel="stylesheet" type="text/css">
+        <style>
+            #bgBox_1 {
+                position: absolute;
+                top: 319px;
+                left: 463px;
+                width: 751px;
+                height: 225px;
+                text-align: center;
+                z-index: 0;
+            }
+            #w1 {
+                position: absolute;
+                top: 334px;
+                left: 342px;
+                width: 50px;
+                height: 28px;
+            }
+            #w2 {
+                position: absolute;
+                top: 344px;
+                left: 438px;
+                width: 25px;
+                height: 11px;
+            }
+            #w3 {
+                position: absolute;
+                top: 344px;
+                left: 415px;
+                width: 25px;
+                height: 11px;
+            }
+            #w4 {
+                position: absolute;
+                top: 344px;
+                left: 390px;
+                width: 25px;
+                height: 11px;
+            }
+            #w5 {
+                position: absolute;
+                top: 342px;
+                left: 463px;
+                width: 25px;
+                height: 15px;
+            }
+            #w6 {
+                position: absolute;
+                top: 319px;
+                left: 516px;
+                width: 25px;
+                height: 15px;
+            }
+            #w7 {
+                position: absolute;
+                top: 294px;
+                left: 524px;
+                width: 11px;
+                height: 25px;
+            }
+            #w9 {
+                position: absolute;
+                top: 250px;
+                left: 524px;
+                width: 11px;
+                height: 25px;
+            }
+            #bgBox_2 {
+                position: absolute;
+                top: 149px;
+                left: 476px;
+                width: 100px;
+                height: 100px;
+                text-align: center;
+                z-index: 0;
+            }
+            #w10 {
+                position: absolute;
+                top: 236px;
+                left: 516px;
+                width: 25px;
+                height: 15px;
+            }
+            #txtArea_4 {
+                position: absolute;
+                top: 158px;
+                left: 479px;
+                width: 82px;
+                height: 54px;
+                text-align: center;
+                z-index: 900;
+            }
+            #txtArea_5 {
+                position: absolute;
+                top: 265px;
+                left: 488px;
+                width: 68px;
+                height: 19px;
+                text-align: center;
+                z-index: 900;
+            }
+            #w11 {
+                position: absolute;
+                top: 319px;
+                left: 568px;
+                width: 25px;
+                height: 15px;
+            }
+            #w12 {
+                position: absolute;
+                top: 319px;
+                left: 619px;
+                width: 25px;
+                height: 15px;
+            }
+            #w13 {
+                position: absolute;
+                top: 250px;
+                left: 625px;
+                width: 11px;
+                height: 25px;
+            }
+            #bgBox_3 {
+                position: absolute;
+                top: 149px;
+                left: 585px;
+                width: 100px;
+                height: 100px;
+                text-align: center;
+                z-index: 0;
+            }
+            #w14 {
+                position: absolute;
+                top: 295px;
+                left: 625px;
+                width: 11px;
+                height: 25px;
+            }
+            #txtArea_6 {
+                position: absolute;
+                top: 266px;
+                left: 588px;
+                width: 70px;
+                height: 18px;
+                text-align: center;
+                z-index: 900;
+            }
+            #txtArea_7 {
+                position: absolute;
+                top: 159px;
+                left: 588px;
+                width: 81px;
+                height: 53px;
+                text-align: center;
+                z-index: 900;
+            }
+            #w15 {
+                position: absolute;
+                top: 236px;
+                left: 618px;
+                width: 25px;
+                height: 15px;
+            }
+            #w16 {
+                position: absolute;
+                top: 319px;
+                left: 705px;
+                width: 25px;
+                height: 15px;
+            }
+            #w17 {
+                position: absolute;
+                top: 319px;
+                left: 800px;
+                width: 25px;
+                height: 15px;
+            }
+            #w18 {
+                position: absolute;
+                top: 319px;
+                left: 858px;
+                width: 25px;
+                height: 15px;
+            }
+            #w19 {
+                position: absolute;
+                top: 259px;
+                left: 786px;
+                width: 50px;
+                height: 15px;
+            }
+            #w20 {
+                position: absolute;
+                top: 259px;
+                left: 849px;
+                width: 50px;
+                height: 15px;
+            }
+            #w21 {
+                position: absolute;
+                top: 295px;
+                left: 809px;
+                width: 11px;
+                height: 25px;
+            }
+            #w22 {
+                position: absolute;
+                top: 274px;
+                left: 809px;
+                width: 11px;
+                height: 25px;
+            }
+            #w23 {
+                position: absolute;
+                top: 273px;
+                left: 864px;
+                width: 11px;
+                height: 25px;
+            }
+            #w24 {
+                position: absolute;
+                top: 294px;
+                left: 864px;
+                width: 11px;
+                height: 25px;
+            }
+            #bgBox_4 {
+                position: absolute;
+                top: 183px;
+                left: 786px;
+                width: 111px;
+                height: 89px;
+                text-align: center;
+                z-index: 0;
+            }
+            #txtArea_8 {
+                position: absolute;
+                top: 182px;
+                left: 787px;
+                width: 101px;
+                height: 44px;
+                text-align: center;
+                z-index: 900;
+            }
+            #w25 {
+                position: absolute;
+                top: 319px;
+                left: 924px;
+                width: 25px;
+                height: 15px;
+            }
+            #w26 {
+                position: absolute;
+                top: 319px;
+                left: 984px;
+                width: 25px;
+                height: 15px;
+            }
+            #w27 {
+                position: absolute;
+                top: 319px;
+                left: 1030px;
+                width: 25px;
+                height: 15px;
+            }
+            #w28 {
+                position: absolute;
+                top: 319px;
+                left: 1136px;
+                width: 25px;
+                height: 15px;
+            }
+            #w29 {
+                position: absolute;
+                top: 91px;
+                left: 982px;
+                width: 50px;
+                height: 15px;
+            }
+            #w30 {
+                position: absolute;
+                top: 91px;
+                left: 1151px;
+                width: 50px;
+                height: 15px;
+            }
+            #txtArea_9 {
+                position: absolute;
+                top: 82px;
+                left: 1058px;
+                width: 50px;
+                height: 17px;
+                text-align: center;
+                z-index: 900;
+            }
+            #w31 {
+                position: absolute;
+                top: 197px;
+                left: 983px;
+                width: 50px;
+                height: 15px;
+            }
+            #txtArea_10 {
+                position: absolute;
+                top: 265px;
+                left: 1007px;
+                width: 58px;
+                height: 19px;
+                text-align: center;
+                z-index: 900;
+            }
+            #bgBox_6 {
+                position: absolute;
+                top: 48px;
+                left: 979px;
+                width: 225px;
+                height: 198px;
+                text-align: center;
+                z-index: 0;
+            }
+            #w32 {
+                position: absolute;
+                top: 233px;
+                left: 1017px;
+                width: 50px;
+                height: 15px;
+            }
+            #w33 {
+                position: absolute;
+                top: 294px;
+                left: 1038px;
+                width: 11px;
+                height: 25px;
+            }
+            #w34 {
+                position: absolute;
+                top: 248px;
+                left: 1037px;
+                width: 11px;
+                height: 25px;
+            }
+            #w35 {
+                position: absolute;
+                top: 294px;
+                left: 1144px;
+                width: 11px;
+                height: 25px;
+            }
+            #txtArea_11 {
+                position: absolute;
+                top: 266px;
+                left: 1110px;
+                width: 64px;
+                height: 19px;
+                text-align: center;
+                z-index: 900;
+            }
+            #txtArea_12 {
+                position: absolute;
+                top: 45px;
+                left: 1046px;
+                width: 76px;
+                height: 17px;
+                text-align: center;
+                z-index: 900;
+            }
+            #w36 {
+                position: absolute;
+                top: 247px;
+                left: 1143px;
+                width: 11px;
+                height: 25px;
+            }
+            #w37 {
+                position: absolute;
+                top: 198px;
+                left: 1150px;
+                width: 50px;
+                height: 15px;
+            }
+            #bgBox_7 {
+                position: absolute;
+                top: 85px;
+                left: 1031px;
+                width: 119px;
+                height: 25px;
+                text-align: center;
+                z-index: 0;
+            }
+            #w38 {
+                position: absolute;
+                top: 233px;
+                left: 1124px;
+                width: 50px;
+                height: 15px;
+            }
+            #bgBox_8 {
+                position: absolute;
+                top: 192px;
+                left: 1032px;
+                width: 117px;
+                height: 23px;
+                text-align: center;
+                z-index: 0;
+            }
+            #w39 {
+                position: absolute;
+                top: 125px;
+                left: 983px;
+                width: 50px;
+                height: 15px;
+            }
+            #w40 {
+                position: absolute;
+                top: 164px;
+                left: 983px;
+                width: 50px;
+                height: 15px;
+            }
+            #w41 {
+                position: absolute;
+                top: 126px;
+                left: 1151px;
+                width: 50px;
+                height: 15px;
+            }
+            #w42 {
+                position: absolute;
+                top: 163px;
+                left: 1151px;
+                width: 50px;
+                height: 15px;
+            }
+            #bgBox_9 {
+                position: absolute;
+                top: 120px;
+                left: 1032px;
+                width: 118px;
+                height: 24px;
+                text-align: center;
+                z-index: 0;
+            }
+            #bgBox_10 {
+                position: absolute;
+                top: 156px;
+                left: 1032px;
+                width: 118px;
+                height: 26px;
+                text-align: center;
+                z-index: 0;
+            }
+            #txtArea_13 {
+                position: absolute;
+                top: 291px;
+                left: 420px;
+                width: 104px;
+                height: 19px;
+                text-align: center;
+                z-index: 900;
+            }
+            #txtArea_14 {
+                position: absolute;
+                top: 292px;
+                left: 626px;
+                width: 96px;
+                height: 17px;
+                text-align: center;
+                z-index: 900;
+            }
+            #txtArea_15 {
+                position: absolute;
+                top: 277px;
+                left: 765px;
+                width: 39px;
+                height: 30px;
+                text-align: center;
+                z-index: 900;
+            }
+            #txtArea_16 {
+                position: absolute;
+                top: 278px;
+                left: 864px;
+                width: 37px;
+                height: 32px;
+                text-align: center;
+                z-index: 900;
+            }
+            #txtArea_17 {
+                position: absolute;
+                top: 279px;
+                left: 1041px;
+                width: 88px;
+                height: 28px;
+                text-align: center;
+                z-index: 900;
+            }
+            #w43 {
+                position: absolute;
+                top: 319px;
+                left: 1082px;
+                width: 25px;
+                height: 15px;
+            }
+            #w44 {
+                position: absolute;
+                top: 344px;
+                left: 1191px;
+                width: 25px;
+                height: 15px;
+            }
+            #w45 {
+                position: absolute;
+                top: 387px;
+                left: 1191px;
+                width: 25px;
+                height: 15px;
+            }
+            #w46 {
+                position: absolute;
+                top: 436px;
+                left: 1191px;
+                width: 25px;
+                height: 15px;
+            }
+            #w47 {
+                position: absolute;
+                top: 491px;
+                left: 1191px;
+                width: 25px;
+                height: 15px;
+            }
+            #w48 {
+                position: absolute;
+                top: 382px;
+                left: 463px;
+                width: 25px;
+                height: 15px;
+            }
+            #w49 {
+                position: absolute;
+                top: 418px;
+                left: 463px;
+                width: 25px;
+                height: 15px;
+            }
+            #w50 {
+                position: absolute;
+                top: 463px;
+                left: 463px;
+                width: 25px;
+                height: 15px;
+            }
+            #w51 {
+                position: absolute;
+                top: 507px;
+                left: 463px;
+                width: 25px;
+                height: 15px;
+            }
+            #w52 {
+                position: absolute;
+                top: 531px;
+                left: 491px;
+                width: 25px;
+                height: 15px;
+            }
+            #w53 {
+                position: absolute;
+                top: 531px;
+                left: 535px;
+                width: 25px;
+                height: 15px;
+            }
+            #txtArea_18 {
+                position: absolute;
+                top: 355px;
+                left: 332px;
+                width: 121px;
+                height: 35px;
+                text-align: center;
+                z-index: 900;
+            }
+            #w54 {
+                position: absolute;
+                top: 531px;
+                left: 610px;
+                width: 25px;
+                height: 15px;
+            }
+            #w55 {
+                position: absolute;
+                top: 546px;
+                left: 617px;
+                width: 11px;
+                height: 25px;
+            }
+            #w56 {
+                position: absolute;
+                top: 571px;
+                left: 617px;
+                width: 11px;
+                height: 25px;
+            }
+            #w57 {
+                position: absolute;
+                top: 595px;
+                left: 617px;
+                width: 11px;
+                height: 25px;
+            }
+            #w58 {
+                position: absolute;
+                top: 619px;
+                left: 617px;
+                width: 11px;
+                height: 25px;
+            }
+            #w59 {
+                position: absolute;
+                top: 643px;
+                left: 598px;
+                width: 50px;
+                height: 15px;
+            }
+            #bgBox_11 {
+                position: absolute;
+                top: 643px;
+                left: 426px;
+                width: 455px;
+                height: 102px;
+                text-align: center;
+                z-index: 0;
+            }
+            #w60 {
+                position: absolute;
+                top: 531px;
+                left: 1173px;
+                width: 25px;
+                height: 15px;
+            }
+            #w61 {
+                position: absolute;
+                top: 531px;
+                left: 1140px;
+                width: 25px;
+                height: 15px;
+            }
+            #w62 {
+                position: absolute;
+                top: 643px;
+                left: 765px;
+                width: 50px;
+                height: 15px;
+            }
+            #w63 {
+                position: absolute;
+                top: 643px;
+                left: 428px;
+                width: 25px;
+                height: 15px;
+            }
+            #w64 {
+                position: absolute;
+                top: 643px;
+                left: 457px;
+                width: 25px;
+                height: 15px;
+            }
+            #w65 {
+                position: absolute;
+                top: 619px;
+                left: 436px;
+                width: 11px;
+                height: 25px;
+            }
+            #w66 {
+                position: absolute;
+                top: 605px;
+                left: 397px;
+                width: 50px;
+                height: 15px;
+            }
+            #bgBox_12 {
+                position: absolute;
+                top: 657px;
+                left: 539px;
+                width: 166px;
+                height: 36px;
+                text-align: center;
+                z-index: 0;
+            }
+            #txtArea_19 {
+                position: absolute;
+                top: 653px;
+                left: 554px;
+                width: 124px;
+                height: 30px;
+                text-align: center;
+                z-index: 900;
+            }
+            #bgBox_13 {
+                position: absolute;
+                top: 545px;
+                left: 1179px;
+                width: 170px;
+                height: 18px;
+                text-align: center;
+                z-index: 0;
+            }
+            #w68 {
+                position: absolute;
+                top: 564px;
+                left: 1350px;
+                width: 50px;
+                height: 15px;
+            }
+            #w69 {
+                position: absolute;
+                top: 618px;
+                left: 787px;
+                width: 11px;
+                height: 25px;
+            }
+            #bgBox_14 {
+                position: absolute;
+                top: 570px;
+                left: 705px;
+                width: 175px;
+                height: 46px;
+                text-align: center;
+                z-index: 0;
+            }
+            #w70 {
+                position: absolute;
+                top: 545px;
+                left: 717px;
+                width: 11px;
+                height: 25px;
+            }
+            #w71 {
+                position: absolute;
+                top: 531px;
+                left: 710px;
+                width: 25px;
+                height: 15px;
+            }
+            #w72 {
+                position: absolute;
+                top: 570px;
+                left: 705px;
+                width: 50px;
+                height: 15px;
+            }
+            #w73 {
+                position: absolute;
+                top: 570px;
+                left: 768px;
+                width: 50px;
+                height: 15px;
+            }
+            #w74 {
+                position: absolute;
+                top: 570px;
+                left: 832px;
+                width: 50px;
+                height: 15px;
+            }
+            #w75 {
+                position: absolute;
+                top: 545px;
+                left: 787px;
+                width: 11px;
+                height: 25px;
+            }
+            #w76 {
+                position: absolute;
+                top: 531px;
+                left: 779px;
+                width: 25px;
+                height: 15px;
+            }
+            #w77 {
+                position: absolute;
+                top: 531px;
+                left: 843px;
+                width: 25px;
+                height: 15px;
+            }
+            #w78 {
+                position: absolute;
+                top: 546px;
+                left: 849px;
+                width: 11px;
+                height: 25px;
+            }
+            #w79 {
+                position: absolute;
+                top: 603px;
+                left: 768px;
+                width: 50px;
+                height: 15px;
+            }
+            #w80 {
+                position: absolute;
+                top: 531px;
+                left: 926px;
+                width: 25px;
+                height: 15px;
+            }
+            #w81 {
+                position: absolute;
+                top: 531px;
+                left: 1007px;
+                width: 25px;
+                height: 15px;
+            }
+            #w82 {
+                position: absolute;
+                top: 531px;
+                left: 1071px;
+                width: 25px;
+                height: 15px;
+            }
+            #w83 {
+                position: absolute;
+                top: 347px;
+                left: 1216px;
+                width: 25px;
+                height: 11px;
+            }
+            #w84 {
+                position: absolute;
+                top: 347px;
+                left: 1240px;
+                width: 25px;
+                height: 11px;
+            }
+            #w85 {
+                position: absolute;
+                top: 390px;
+                left: 1215px;
+                width: 25px;
+                height: 11px;
+            }
+            #w86 {
+                position: absolute;
+                top: 390px;
+                left: 1239px;
+                width: 25px;
+                height: 11px;
+            }
+            #w87 {
+                position: absolute;
+                top: 438px;
+                left: 1216px;
+                width: 25px;
+                height: 11px;
+            }
+            #w88 {
+                position: absolute;
+                top: 438px;
+                left: 1239px;
+                width: 25px;
+                height: 11px;
+            }
+            #w89 {
+                position: absolute;
+                top: 493px;
+                left: 1216px;
+                width: 25px;
+                height: 11px;
+            }
+            #w90 {
+                position: absolute;
+                top: 493px;
+                left: 1240px;
+                width: 25px;
+                height: 11px;
+            }
+            #w91 {
+                position: absolute;
+                top: 348px;
+                left: 1264px;
+                width: 50px;
+                height: 15px;
+            }
+            #w92 {
+                position: absolute;
+                top: 389px;
+                left: 1263px;
+                width: 50px;
+                height: 15px;
+            }
+            #w93 {
+                position: absolute;
+                top: 436px;
+                left: 1264px;
+                width: 50px;
+                height: 15px;
+            }
+            #w94 {
+                position: absolute;
+                top: 492px;
+                left: 1265px;
+                width: 50px;
+                height: 15px;
+            }
+            #txtArea_20 {
+                position: absolute;
+                top: 338px;
+                left: 1312px;
+                width: 63px;
+                height: 17px;
+                text-align: center;
+                z-index: 900;
+            }
+            #txtArea_21 {
+                position: absolute;
+                top: 378px;
+                left: 1312px;
+                width: 59px;
+                height: 20px;
+                text-align: center;
+                z-index: 900;
+            }
+            #txtArea_22 {
+                position: absolute;
+                top: 481px;
+                left: 1314px;
+                width: 59px;
+                height: 20px;
+                text-align: center;
+                z-index: 900;
+            }
+            #txtArea_23 {
+                position: absolute;
+                top: 425px;
+                left: 1312px;
+                width: 70px;
+                height: 19px;
+                text-align: center;
+                z-index: 900;
+            }
+            #txtArea_24 {
+                position: absolute;
+                top: 560px;
+                left: 1175px;
+                width: 50px;
+                height: 20px;
+                text-align: center;
+                z-index: 900;
+            }
+            #txtArea_25 {
+                position: absolute;
+                top: 554px;
+                left: 520px;
+                width: 95px;
+                height: 46px;
+                text-align: center;
+                z-index: 900;
+            }
+            #w95 {
+                position: absolute;
+                top: 546px;
+                left: 1078px;
+                width: 11px;
+                height: 25px;
+            }
+            #txtArea_26 {
+                position: absolute;
+                top: 542px;
+                left: 1080px;
+                width: 61px;
+                height: 20px;
+                text-align: center;
+                z-index: 900;
+            }
+            #w96 {
+                position: absolute;
+                top: 569px;
+                left: 1078px;
+                width: 11px;
+                height: 25px;
+            }
+            #bgBox_15 {
+                position: absolute;
+                top: 589px;
+                left: 1034px;
+                width: 100px;
+                height: 70px;
+                text-align: center;
+                z-index: 0;
+            }
+            #w97 {
+                position: absolute;
+                top: 594px;
+                left: 1058px;
+                width: 50px;
+                height: 15px;
+            }
+            #txtArea_27 {
+                position: absolute;
+                top: 607px;
+                left: 1054px;
+                width: 50px;
+                height: 20px;
+                text-align: center;
+                z-index: 900;
+            }
+            #w98 {
+                position: absolute;
+                top: 640px;
+                left: 1061px;
+                width: 50px;
+                height: 15px;
+            }
+            #w99 {
+                position: absolute;
+                top: 655px;
+                left: 1082px;
+                width: 11px;
+                height: 25px;
+            }
+            #bgBox_16 {
+                position: absolute;
+                top: 680px;
+                left: 1055px;
+                width: 157px;
+                height: 72px;
+                text-align: center;
+                z-index: 0;
+            }
+            #w101 {
+                position: absolute;
+                top: 680px;
+                left: 1062px;
+                width: 50px;
+                height: 15px;
+            }
+            #w102 {
+                position: absolute;
+                top: 680px;
+                left: 1124px;
+                width: 50px;
+                height: 15px;
+            }
+            #txtArea_28 {
+                position: absolute;
+                top: 695px;
+                left: 1060px;
+                width: 79px;
+                height: 18px;
+                text-align: center;
+                z-index: 900;
+            }
+            #w103 {
+                position: absolute;
+                top: 709px;
+                left: 1164px;
+                width: 50px;
+                height: 15px;
+            }
+            #w104 {
+                position: absolute;
+                top: 726px;
+                left: 1164px;
+                width: 50px;
+                height: 15px;
+            }
+            #w105 {
+                position: absolute;
+                top: 729px;
+                left: 1214px;
+                width: 25px;
+                height: 11px;
+            }
+            #w106 {
+                position: absolute;
+                top: 711px;
+                left: 1214px;
+                width: 25px;
+                height: 11px;
+            }
+            #w107 {
+                position: absolute;
+                top: 711px;
+                left: 1233px;
+                width: 25px;
+                height: 11px;
+            }
+            #w108 {
+                position: absolute;
+                top: 729px;
+                left: 1239px;
+                width: 25px;
+                height: 11px;
+            }
+            #w109 {
+                position: absolute;
+                top: 691px;
+                left: 1252px;
+                width: 11px;
+                height: 25px;
+            }
+            #w110 {
+                position: absolute;
+                top: 710px;
+                left: 1259px;
+                width: 11px;
+                height: 25px;
+            }
+            #w111 {
+                position: absolute;
+                top: 703px;
+                left: 1259px;
+                width: 11px;
+                height: 25px;
+            }
+            #w112 {
+                position: absolute;
+                top: 685px;
+                left: 1257px;
+                width: 25px;
+                height: 11px;
+            }
+            #w113 {
+                position: absolute;
+                top: 698px;
+                left: 1265px;
+                width: 25px;
+                height: 11px;
+            }
+            #bgBox_17 {
+                position: absolute;
+                top: 672px;
+                left: 1291px;
+                width: 175px;
+                height: 100px;
+                text-align: center;
+                z-index: 0;
+            }
+            #w114 {
+                position: absolute;
+                top: 695px;
+                left: 1298px;
+                width: 25px;
+                height: 15px;
+            }
+            #bgBox_18 {
+                position: absolute;
+                top: 675px;
+                left: 1294px;
+                width: 31px;
+                height: 74px;
+                text-align: center;
+                z-index: 0;
+            }
+            #w115 {
+                position: absolute;
+                top: 698px;
+                left: 1273px;
+                width: 25px;
+                height: 11px;
+            }
+            #w116 {
+                position: absolute;
+                top: 685px;
+                left: 1273px;
+                width: 25px;
+                height: 11px;
+            }
+            #w117 {
+                position: absolute;
+                top: 678px;
+                left: 1298px;
+                width: 25px;
+                height: 15px;
+            }
+            #w118 {
+                position: absolute;
+                top: 713px;
+                left: 1298px;
+                width: 25px;
+                height: 15px;
+            }
+            #w119 {
+                position: absolute;
+                top: 731px;
+                left: 1297px;
+                width: 25px;
+                height: 15px;
+            }
+            #txtArea_30 {
+                position: absolute;
+                top: 693px;
+                left: 1327px;
+                width: 37px;
+                height: 32px;
+                text-align: center;
+                z-index: 900;
+            }
+            #bgBox_19 {
+                position: absolute;
+                top: 691px;
+                left: 1328px;
+                width: 44px;
+                height: 48px;
+                text-align: center;
+                z-index: 0;
+            }
+            #w121 {
+                position: absolute;
+                top: 680px;
+                left: 1442px;
+                width: 25px;
+                height: 25px;
+            }
+            #txtArea_31 {
+                position: absolute;
+                top: 667px;
+                left: 1412px;
+                width: 20px;
+                height: 32px;
+                text-align: center;
+                z-index: 900;
+            }
+            #w122 {
+                position: absolute;
+                top: 743px;
+                left: 1442px;
+                width: 25px;
+                height: 25px;
+            }
+            #txtArea_32 {
+                position: absolute;
+                top: 728px;
+                left: 1417px;
+                width: 17px;
+                height: 35px;
+                text-align: center;
+                z-index: 900;
+            }
+            #txtArea_33 {
+                position: absolute;
+                top: 643px;
+                left: 1314px;
+                width: 58px;
+                height: 17px;
+                text-align: center;
+                z-index: 900;
+            }
+            #txtArea_34 {
+                position: absolute;
+                top: 706px;
+                left: 1408px;
+                width: 50px;
+                height: 20px;
+                text-align: center;
+                z-index: 900;
+            }
+            #w123 {
+                position: absolute;
+                top: 687px;
+                left: 1466px;
+                width: 25px;
+                height: 11px;
+            }
+            #w124 {
+                position: absolute;
+                top: 687px;
+                left: 1489px;
+                width: 25px;
+                height: 11px;
+            }
+            #w125 {
+                position: absolute;
+                top: 686px;
+                left: 1514px;
+                width: 25px;
+                height: 15px;
+            }
+            #w126 {
+                position: absolute;
+                top: 688px;
+                left: 1539px;
+                width: 25px;
+                height: 11px;
+            }
+            #w127 {
+                position: absolute;
+                top: 686px;
+                left: 1564px;
+                width: 25px;
+                height: 15px;
+            }
+            #w128 {
+                position: absolute;
+                top: 750px;
+                left: 1467px;
+                width: 25px;
+                height: 11px;
+            }
+            #w129 {
+                position: absolute;
+                top: 750px;
+                left: 1491px;
+                width: 25px;
+                height: 11px;
+            }
+            #w130 {
+                position: absolute;
+                top: 747px;
+                left: 1516px;
+                width: 25px;
+                height: 15px;
+            }
+            #w131 {
+                position: absolute;
+                top: 747px;
+                left: 1565px;
+                width: 25px;
+                height: 15px;
+            }
+            #w132 {
+                position: absolute;
+                top: 749px;
+                left: 1540px;
+                width: 25px;
+                height: 11px;
+            }
+            #w133 {
+                position: absolute;
+                top: 688px;
+                left: 1589px;
+                width: 25px;
+                height: 11px;
+            }
+            #w134 {
+                position: absolute;
+                top: 749px;
+                left: 1589px;
+                width: 25px;
+                height: 11px;
+            }
+            #bgBox_20 {
+                position: absolute;
+                top: 685px;
+                left: 1614px;
+                width: 86px;
+                height: 77px;
+                text-align: center;
+                z-index: 0;
+            }
+            #txtArea_35 {
+                position: absolute;
+                top: 699px;
+                left: 1619px;
+                width: 64px;
+                height: 36px;
+                text-align: center;
+                z-index: 900;
+            }
+            #bgBox_21 {
+                position: absolute;
+                top: 700px;
+                left: 430px;
+                width: 216px;
+                height: 43px;
+                text-align: center;
+                z-index: 0;
+            }
+            #txtArea_37 {
+                position: absolute;
+                top: 656px;
+                left: 722px;
+                width: 70px;
+                height: 17px;
+                text-align: center;
+                z-index: 900;
+            }
+            #w135 {
+                position: absolute;
+                top: 728px;
+                left: 435px;
+                width: 50px;
+                height: 15px;
+            }
+            #w136 {
+                position: absolute;
+                top: 728px;
+                left: 488px;
+                width: 50px;
+                height: 15px;
+            }
+            #w137 {
+                position: absolute;
+                top: 728px;
+                left: 541px;
+                width: 50px;
+                height: 15px;
+            }
+            #w138 {
+                position: absolute;
+                top: 728px;
+                left: 594px;
+                width: 50px;
+                height: 15px;
+            }
+            #txtArea_38 {
+                position: absolute;
+                top: 696px;
+                left: 512px;
+                width: 61px;
+                height: 21px;
+                text-align: center;
+                z-index: 900;
+            }
+            #w139 {
+                position: absolute;
+                top: 728px;
+                left: 661px;
+                width: 50px;
+                height: 15px;
+            }
+            #w140 {
+                position: absolute;
+                top: 728px;
+                left: 715px;
+                width: 50px;
+                height: 15px;
+            }
+            #w141 {
+                position: absolute;
+                top: 728px;
+                left: 769px;
+                width: 50px;
+                height: 15px;
+            }
+            #w142 {
+                position: absolute;
+                top: 728px;
+                left: 822px;
+                width: 50px;
+                height: 15px;
+            }
+            #txtArea_39 {
+                position: absolute;
+                top: 697px;
+                left: 727px;
+                width: 67px;
+                height: 20px;
+                text-align: center;
+                z-index: 900;
+            }
+            #bgBox_24 {
+                position: absolute;
+                top: 700px;
+                left: 658px;
+                width: 216px;
+                height: 43px;
+                text-align: center;
+                z-index: 0;
+            }
+            #w143 {
+                position: absolute;
+                top: 806px;
+                left: 783px;
+                width: 25px;
+                height: 15px;
+            }
+            #w144 {
+                position: absolute;
+                top: 743px;
+                left: 791px;
+                width: 11px;
+                height: 25px;
+            }
+            #w145 {
+                position: absolute;
+                top: 762px;
+                left: 772px;
+                width: 25px;
+                height: 11px;
+            }
+            #w146 {
+                position: absolute;
+                top: 762px;
+                left: 730px;
+                width: 25px;
+                height: 6px;
+            }
+            #w147 {
+                position: absolute;
+                top: 741px;
+                left: 738px;
+                width: 11px;
+                height: 25px;
+            }
+            #w148 {
+                position: absolute;
+                top: 766px;
+                left: 738px;
+                width: 11px;
+                height: 25px;
+            }
+            #w149 {
+                position: absolute;
+                top: 762px;
+                left: 753px;
+                width: 25px;
+                height: 11px;
+            }
+            #w150 {
+                position: absolute;
+                top: 767px;
+                left: 724px;
+                width: 11px;
+                height: 25px;
+            }
+            #w152 {
+                position: absolute;
+                top: 808px;
+                left: 713px;
+                width: 25px;
+                height: 6px;
+            }
+            #w153 {
+                position: absolute;
+                top: 808px;
+                left: 734px;
+                width: 25px;
+                height: 6px;
+            }
+            #w154 {
+                position: absolute;
+                top: 808px;
+                left: 759px;
+                width: 25px;
+                height: 11px;
+            }
+            #w155 {
+                position: absolute;
+                top: 786px;
+                left: 724px;
+                width: 11px;
+                height: 25px;
+            }
+            #w156 {
+                position: absolute;
+                top: 789px;
+                left: 738px;
+                width: 11px;
+                height: 25px;
+            }
+            #w157 {
+                position: absolute;
+                top: 808px;
+                left: 724px;
+                width: 11px;
+                height: 25px;
+            }
+            #w158 {
+                position: absolute;
+                top: 807px;
+                left: 738px;
+                width: 11px;
+                height: 25px;
+            }
+            #w161 {
+                position: absolute;
+                top: 743px;
+                left: 613px;
+                width: 11px;
+                height: 25px;
+            }
+            #w162 {
+                position: absolute;
+                top: 742px;
+                left: 561px;
+                width: 11px;
+                height: 25px;
+            }
+            #w163 {
+                position: absolute;
+                top: 742px;
+                left: 507px;
+                width: 11px;
+                height: 25px;
+            }
+            #w164 {
+                position: absolute;
+                top: 830px;
+                left: 784px;
+                width: 25px;
+                height: 15px;
+            }
+            #w166 {
+                position: absolute;
+                top: 837px;
+                left: 759px;
+                width: 25px;
+                height: 11px;
+            }
+            #w167 {
+                position: absolute;
+                top: 837px;
+                left: 734px;
+                width: 25px;
+                height: 6px;
+            }
+            #w168 {
+                position: absolute;
+                top: 837px;
+                left: 715px;
+                width: 25px;
+                height: 6px;
+            }
+            #w170 {
+                position: absolute;
+                top: 832px;
+                left: 724px;
+                width: 11px;
+                height: 25px;
+            }
+            #w171 {
+                position: absolute;
+                top: 828px;
+                left: 738px;
+                width: 11px;
+                height: 25px;
+            }
+            #w172 {
+                position: absolute;
+                top: 742px;
+                left: 680px;
+                width: 11px;
+                height: 25px;
+            }
+            #w173 {
+                position: absolute;
+                top: 761px;
+                left: 680px;
+                width: 11px;
+                height: 25px;
+            }
+            #w174 {
+                position: absolute;
+                top: 808px;
+                left: 672px;
+                width: 25px;
+                height: 6px;
+            }
+            #w175 {
+                position: absolute;
+                top: 837px;
+                left: 672px;
+                width: 25px;
+                height: 6px;
+            }
+            #w176 {
+                position: absolute;
+                top: 783px;
+                left: 680px;
+                width: 11px;
+                height: 25px;
+            }
+            #w177 {
+                position: absolute;
+                top: 805px;
+                left: 680px;
+                width: 11px;
+                height: 25px;
+            }
+            #w178 {
+                position: absolute;
+                top: 828px;
+                left: 680px;
+                width: 11px;
+                height: 25px;
+            }
+            #w179 {
+                position: absolute;
+                top: 808px;
+                left: 693px;
+                width: 25px;
+                height: 11px;
+            }
+            #w180 {
+                position: absolute;
+                top: 837px;
+                left: 693px;
+                width: 25px;
+                height: 11px;
+            }
+            #w181 {
+                position: absolute;
+                top: 767px;
+                left: 613px;
+                width: 11px;
+                height: 25px;
+            }
+            #w182 {
+                position: absolute;
+                top: 808px;
+                left: 606px;
+                width: 25px;
+                height: 6px;
+            }
+            #w183 {
+                position: absolute;
+                top: 808px;
+                left: 554px;
+                width: 25px;
+                height: 6px;
+            }
+            #w184 {
+                position: absolute;
+                top: 762px;
+                left: 561px;
+                width: 11px;
+                height: 25px;
+            }
+            #w185 {
+                position: absolute;
+                top: 786px;
+                left: 561px;
+                width: 11px;
+                height: 25px;
+            }
+            #w186 {
+                position: absolute;
+                top: 808px;
+                left: 654px;
+                width: 25px;
+                height: 11px;
+            }
+            #w187 {
+                position: absolute;
+                top: 808px;
+                left: 631px;
+                width: 25px;
+                height: 11px;
+            }
+            #w188 {
+                position: absolute;
+                top: 791px;
+                left: 613px;
+                width: 11px;
+                height: 25px;
+            }
+            #w189 {
+                position: absolute;
+                top: 809px;
+                left: 613px;
+                width: 11px;
+                height: 25px;
+            }
+            #w190 {
+                position: absolute;
+                top: 808px;
+                left: 582px;
+                width: 25px;
+                height: 11px;
+            }
+            #w191 {
+                position: absolute;
+                top: 808px;
+                left: 574px;
+                width: 25px;
+                height: 11px;
+            }
+            #w192 {
+                position: absolute;
+                top: 808px;
+                left: 533px;
+                width: 25px;
+                height: 11px;
+            }
+            #w194 {
+                position: absolute;
+                top: 808px;
+                left: 523px;
+                width: 25px;
+                height: 11px;
+            }
+            #w195 {
+                position: absolute;
+                top: 765px;
+                left: 507px;
+                width: 11px;
+                height: 25px;
+            }
+            #w196 {
+                position: absolute;
+                top: 781px;
+                left: 507px;
+                width: 11px;
+                height: 25px;
+            }
+            #w197 {
+                position: absolute;
+                top: 808px;
+                left: 513px;
+                width: 25px;
+                height: 11px;
+            }
+            #w198 {
+                position: absolute;
+                top: 789px;
+                left: 507px;
+                width: 11px;
+                height: 25px;
+            }
+            #w199 {
+                position: absolute;
+                top: 743px;
+                left: 454px;
+                width: 11px;
+                height: 25px;
+            }
+            #w200 {
+                position: absolute;
+                top: 764px;
+                left: 454px;
+                width: 11px;
+                height: 25px;
+            }
+            #w201 {
+                position: absolute;
+                top: 786px;
+                left: 454px;
+                width: 11px;
+                height: 25px;
+            }
+            #w202 {
+                position: absolute;
+                top: 810px;
+                left: 454px;
+                width: 11px;
+                height: 25px;
+            }
+            #w203 {
+                position: absolute;
+                top: 832px;
+                left: 454px;
+                width: 11px;
+                height: 25px;
+            }
+            #w204 {
+                position: absolute;
+                top: 855px;
+                left: 454px;
+                width: 11px;
+                height: 25px;
+            }
+            #w205 {
+                position: absolute;
+                top: 878px;
+                left: 454px;
+                width: 11px;
+                height: 25px;
+            }
+            #w208 {
+                position: absolute;
+                top: 868px;
+                left: 785px;
+                width: 25px;
+                height: 15px;
+            }
+            #w209 {
+                position: absolute;
+                top: 887px;
+                left: 786px;
+                width: 25px;
+                height: 15px;
+            }
+            #w210 {
+                position: absolute;
+                top: 869px;
+                left: 760px;
+                width: 25px;
+                height: 11px;
+            }
+            #w211 {
+                position: absolute;
+                top: 890px;
+                left: 761px;
+                width: 25px;
+                height: 11px;
+            }
+            #w212 {
+                position: absolute;
+                top: 837px;
+                left: 605px;
+                width: 25px;
+                height: 6px;
+            }
+            #w213 {
+                position: absolute;
+                top: 837px;
+                left: 649px;
+                width: 25px;
+                height: 11px;
+            }
+            #w214 {
+                position: absolute;
+                top: 810px;
+                left: 562px;
+                width: 11px;
+                height: 25px;
+            }
+            #w215 {
+                position: absolute;
+                top: 818px;
+                left: 562px;
+                width: 11px;
+                height: 25px;
+            }
+            #w216 {
+                position: absolute;
+                top: 837px;
+                left: 629px;
+                width: 25px;
+                height: 11px;
+            }
+            #w217 {
+                position: absolute;
+                top: 831px;
+                left: 613px;
+                width: 11px;
+                height: 25px;
+            }
+            #w218 {
+                position: absolute;
+                top: 837px;
+                left: 580px;
+                width: 25px;
+                height: 11px;
+            }
+            #w219 {
+                position: absolute;
+                top: 837px;
+                left: 568px;
+                width: 25px;
+                height: 11px;
+            }
+            #w220 {
+                position: absolute;
+                top: 847px;
+                left: 738px;
+                width: 11px;
+                height: 25px;
+            }
+            #w221 {
+                position: absolute;
+                top: 850px;
+                left: 738px;
+                width: 11px;
+                height: 25px;
+            }
+            #w222 {
+                position: absolute;
+                top: 869px;
+                left: 744px;
+                width: 25px;
+                height: 11px;
+            }
+            #w223 {
+                position: absolute;
+                top: 853px;
+                left: 724px;
+                width: 11px;
+                height: 25px;
+            }
+            #w224 {
+                position: absolute;
+                top: 871px;
+                left: 724px;
+                width: 11px;
+                height: 25px;
+            }
+            #w225 {
+                position: absolute;
+                top: 890px;
+                left: 739px;
+                width: 25px;
+                height: 11px;
+            }
+            #w226 {
+                position: absolute;
+                top: 890px;
+                left: 730px;
+                width: 25px;
+                height: 11px;
+            }
+            #bgBox_25 {
+                position: absolute;
+                top: 802px;
+                left: 855px;
+                width: 117px;
+                height: 100px;
+                text-align: center;
+                z-index: 0;
+            }
+            #w227 {
+                position: absolute;
+                top: 806px;
+                left: 855px;
+                width: 50px;
+                height: 15px;
+            }
+            #w228 {
+                position: absolute;
+                top: 807px;
+                left: 808px;
+                width: 25px;
+                height: 11px;
+            }
+            #w229 {
+                position: absolute;
+                top: 807px;
+                left: 831px;
+                width: 25px;
+                height: 11px;
+            }
+            #w230 {
+                position: absolute;
+                top: 870px;
+                left: 810px;
+                width: 25px;
+                height: 11px;
+            }
+            #w231 {
+                position: absolute;
+                top: 888px;
+                left: 811px;
+                width: 25px;
+                height: 11px;
+            }
+            #w232 {
+                position: absolute;
+                top: 833px;
+                left: 808px;
+                width: 25px;
+                height: 11px;
+            }
+            #w233 {
+                position: absolute;
+                top: 833px;
+                left: 831px;
+                width: 25px;
+                height: 11px;
+            }
+            #w234 {
+                position: absolute;
+                top: 870px;
+                left: 831px;
+                width: 25px;
+                height: 11px;
+            }
+            #w235 {
+                position: absolute;
+                top: 888px;
+                left: 830px;
+                width: 25px;
+                height: 11px;
+            }
+            #w236 {
+                position: absolute;
+                top: 830px;
+                left: 855px;
+                width: 50px;
+                height: 15px;
+            }
+            #w237 {
+                position: absolute;
+                top: 867px;
+                left: 855px;
+                width: 50px;
+                height: 15px;
+            }
+            #w238 {
+                position: absolute;
+                top: 886px;
+                left: 855px;
+                width: 50px;
+                height: 15px;
+            }
+            #w239 {
+                position: absolute;
+                top: 834px;
+                left: 949px;
+                width: 25px;
+                height: 15px;
+            }
+            #w240 {
+                position: absolute;
+                top: 862px;
+                left: 949px;
+                width: 25px;
+                height: 15px;
+            }
+            #txtArea_40 {
+                position: absolute;
+                top: 774px;
+                left: 873px;
+                width: 71px;
+                height: 17px;
+                text-align: center;
+                z-index: 900;
+            }
+            #w241 {
+                position: absolute;
+                top: 836px;
+                left: 973px;
+                width: 25px;
+                height: 11px;
+            }
+            #w242 {
+                position: absolute;
+                top: 836px;
+                left: 997px;
+                width: 25px;
+                height: 11px;
+            }
+            #w243 {
+                position: absolute;
+                top: 865px;
+                left: 974px;
+                width: 25px;
+                height: 11px;
+            }
+            #w244 {
+                position: absolute;
+                top: 865px;
+                left: 999px;
+                width: 25px;
+                height: 11px;
+            }
+            #w245 {
+                position: absolute;
+                top: 836px;
+                left: 1022px;
+                width: 25px;
+                height: 11px;
+            }
+            #w246 {
+                position: absolute;
+                top: 865px;
+                left: 1023px;
+                width: 25px;
+                height: 11px;
+            }
+            #bgBox_26 {
+                position: absolute;
+                top: 803px;
+                left: 1047px;
+                width: 100px;
+                height: 100px;
+                text-align: center;
+                z-index: 0;
+            }
+            #txtArea_41 {
+                position: absolute;
+                top: 839px;
+                left: 1067px;
+                width: 50px;
+                height: 20px;
+                text-align: center;
+                z-index: 900;
+            }
+            #w247 {
+                position: absolute;
+                top: 851px;
+                left: 680px;
+                width: 11px;
+                height: 25px;
+            }
+            #w248 {
+                position: absolute;
+                top: 872px;
+                left: 680px;
+                width: 11px;
+                height: 25px;
+            }
+            #w249 {
+                position: absolute;
+                top: 896px;
+                left: 680px;
+                width: 11px;
+                height: 25px;
+            }
+            #w250 {
+                position: absolute;
+                top: 917px;
+                left: 680px;
+                width: 11px;
+                height: 25px;
+            }
+            #w251 {
+                position: absolute;
+                top: 952px;
+                left: 788px;
+                width: 25px;
+                height: 15px;
+            }
+            #w252 {
+                position: absolute;
+                top: 934px;
+                left: 673px;
+                width: 25px;
+                height: 6px;
+            }
+            #w253 {
+                position: absolute;
+                top: 954px;
+                left: 764px;
+                width: 25px;
+                height: 11px;
+            }
+            #w254 {
+                position: absolute;
+                top: 954px;
+                left: 744px;
+                width: 25px;
+                height: 11px;
+            }
+            #w255 {
+                position: absolute;
+                top: 954px;
+                left: 721px;
+                width: 25px;
+                height: 11px;
+            }
+            #w256 {
+                position: absolute;
+                top: 954px;
+                left: 698px;
+                width: 25px;
+                height: 11px;
+            }
+            #w257 {
+                position: absolute;
+                top: 935px;
+                left: 680px;
+                width: 11px;
+                height: 25px;
+            }
+            #w258 {
+                position: absolute;
+                top: 954px;
+                left: 686px;
+                width: 25px;
+                height: 11px;
+            }
+            #w259 {
+                position: absolute;
+                top: 932px;
+                left: 788px;
+                width: 25px;
+                height: 15px;
+            }
+            #w260 {
+                position: absolute;
+                top: 934px;
+                left: 764px;
+                width: 25px;
+                height: 11px;
+            }
+            #w261 {
+                position: absolute;
+                top: 934px;
+                left: 742px;
+                width: 25px;
+                height: 11px;
+            }
+            #w262 {
+                position: absolute;
+                top: 934px;
+                left: 717px;
+                width: 25px;
+                height: 11px;
+            }
+            #w263 {
+                position: absolute;
+                top: 934px;
+                left: 693px;
+                width: 25px;
+                height: 11px;
+            }
+            #w264 {
+                position: absolute;
+                top: 934px;
+                left: 650px;
+                width: 25px;
+                height: 11px;
+            }
+            #w265 {
+                position: absolute;
+                top: 934px;
+                left: 629px;
+                width: 25px;
+                height: 11px;
+            }
+            #w267 {
+                position: absolute;
+                top: 934px;
+                left: 588px;
+                width: 25px;
+                height: 11px;
+            }
+            #w268 {
+                position: absolute;
+                top: 934px;
+                left: 567px;
+                width: 25px;
+                height: 11px;
+            }
+            #w269 {
+                position: absolute;
+                top: 934px;
+                left: 544px;
+                width: 25px;
+                height: 11px;
+            }
+            #w270 {
+                position: absolute;
+                top: 934px;
+                left: 519px;
+                width: 25px;
+                height: 11px;
+            }
+            #w271 {
+                position: absolute;
+                top: 934px;
+                left: 495px;
+                width: 25px;
+                height: 11px;
+            }
+            #w272 {
+                position: absolute;
+                top: 934px;
+                left: 470px;
+                width: 25px;
+                height: 11px;
+            }
+            #w273 {
+                position: absolute;
+                top: 934px;
+                left: 459px;
+                width: 25px;
+                height: 11px;
+            }
+            #w274 {
+                position: absolute;
+                top: 901px;
+                left: 454px;
+                width: 11px;
+                height: 25px;
+            }
+            #w275 {
+                position: absolute;
+                top: 914px;
+                left: 454px;
+                width: 11px;
+                height: 25px;
+            }
+            #w276 {
+                position: absolute;
+                top: 934px;
+                left: 606px;
+                width: 25px;
+                height: 6px;
+            }
+            #w277 {
+                position: absolute;
+                top: 856px;
+                left: 613px;
+                width: 11px;
+                height: 25px;
+            }
+            #w278 {
+                position: absolute;
+                top: 881px;
+                left: 613px;
+                width: 11px;
+                height: 25px;
+            }
+            #w279 {
+                position: absolute;
+                top: 905px;
+                left: 613px;
+                width: 11px;
+                height: 25px;
+            }
+            #w280 {
+                position: absolute;
+                top: 928px;
+                left: 613px;
+                width: 11px;
+                height: 25px;
+            }
+            #w281 {
+                position: absolute;
+                top: 952px;
+                left: 613px;
+                width: 11px;
+                height: 25px;
+            }
+            #w282 {
+                position: absolute;
+                top: 970px;
+                left: 613px;
+                width: 11px;
+                height: 25px;
+            }
+            #w283 {
+                position: absolute;
+                top: 990px;
+                left: 618px;
+                width: 25px;
+                height: 11px;
+            }
+            #w284 {
+                position: absolute;
+                top: 990px;
+                left: 643px;
+                width: 25px;
+                height: 11px;
+            }
+            #w285 {
+                position: absolute;
+                top: 990px;
+                left: 667px;
+                width: 25px;
+                height: 11px;
+            }
+            #w286 {
+                position: absolute;
+                top: 990px;
+                left: 691px;
+                width: 25px;
+                height: 11px;
+            }
+            #w287 {
+                position: absolute;
+                top: 990px;
+                left: 712px;
+                width: 25px;
+                height: 11px;
+            }
+            #w289 {
+                position: absolute;
+                top: 989px;
+                left: 956px;
+                width: 25px;
+                height: 15px;
+            }
+            #w290 {
+                position: absolute;
+                top: 972px;
+                left: 956px;
+                width: 25px;
+                height: 15px;
+            }
+            #w291 {
+                position: absolute;
+                top: 931px;
+                left: 955px;
+                width: 25px;
+                height: 15px;
+            }
+            #w292 {
+                position: absolute;
+                top: 934px;
+                left: 835px;
+                width: 25px;
+                height: 11px;
+            }
+            #w293 {
+                position: absolute;
+                top: 934px;
+                left: 812px;
+                width: 25px;
+                height: 11px;
+            }
+            #w294 {
+                position: absolute;
+                top: 934px;
+                left: 858px;
+                width: 25px;
+                height: 11px;
+            }
+            #w295 {
+                position: absolute;
+                top: 934px;
+                left: 883px;
+                width: 25px;
+                height: 11px;
+            }
+            #w296 {
+                position: absolute;
+                top: 934px;
+                left: 906px;
+                width: 25px;
+                height: 11px;
+            }
+            #w297 {
+                position: absolute;
+                top: 934px;
+                left: 930px;
+                width: 25px;
+                height: 11px;
+            }
+            #w298 {
+                position: absolute;
+                top: 955px;
+                left: 813px;
+                width: 25px;
+                height: 11px;
+            }
+            #w299 {
+                position: absolute;
+                top: 955px;
+                left: 838px;
+                width: 25px;
+                height: 11px;
+            }
+            #w300 {
+                position: absolute;
+                top: 955px;
+                left: 863px;
+                width: 25px;
+                height: 11px;
+            }
+            #w301 {
+                position: absolute;
+                top: 955px;
+                left: 887px;
+                width: 25px;
+                height: 11px;
+            }
+            #w302 {
+                position: absolute;
+                top: 950px;
+                left: 956px;
+                width: 25px;
+                height: 15px;
+            }
+            #bgBox_27 {
+                position: absolute;
+                top: 858px;
+                left: 1162px;
+                width: 65px;
+                height: 54px;
+                text-align: center;
+                z-index: 0;
+            }
+            #txtArea_42 {
+                position: absolute;
+                top: 962px;
+                left: 625px;
+                width: 74px;
+                height: 19px;
+                text-align: center;
+                z-index: 900;
+            }
+            #w303 {
+                position: absolute;
+                top: 955px;
+                left: 911px;
+                width: 25px;
+                height: 11px;
+            }
+            #w304 {
+                position: absolute;
+                top: 955px;
+                left: 932px;
+                width: 25px;
+                height: 11px;
+            }
+            #w305 {
+                position: absolute;
+                top: 990px;
+                left: 737px;
+                width: 25px;
+                height: 11px;
+            }
+            #w306 {
+                position: absolute;
+                top: 990px;
+                left: 762px;
+                width: 25px;
+                height: 11px;
+            }
+            #w307 {
+                position: absolute;
+                top: 990px;
+                left: 787px;
+                width: 25px;
+                height: 11px;
+            }
+            #w308 {
+                position: absolute;
+                top: 990px;
+                left: 812px;
+                width: 25px;
+                height: 11px;
+            }
+            #w309 {
+                position: absolute;
+                top: 990px;
+                left: 837px;
+                width: 25px;
+                height: 11px;
+            }
+            #w310 {
+                position: absolute;
+                top: 990px;
+                left: 861px;
+                width: 25px;
+                height: 11px;
+            }
+            #w311 {
+                position: absolute;
+                top: 990px;
+                left: 885px;
+                width: 25px;
+                height: 11px;
+            }
+            #w312 {
+                position: absolute;
+                top: 990px;
+                left: 909px;
+                width: 25px;
+                height: 11px;
+            }
+            #w313 {
+                position: absolute;
+                top: 990px;
+                left: 930px;
+                width: 25px;
+                height: 11px;
+            }
+            #txtArea_43 {
+                position: absolute;
+                top: 854px;
+                left: 1169px;
+                width: 48px;
+                height: 37px;
+                text-align: center;
+                z-index: 900;
+            }
+            #w314 {
+                position: absolute;
+                top: 934px;
+                left: 979px;
+                width: 25px;
+                height: 11px;
+            }
+            #w315 {
+                position: absolute;
+                top: 953px;
+                left: 981px;
+                width: 25px;
+                height: 11px;
+            }
+            #w316 {
+                position: absolute;
+                top: 976px;
+                left: 981px;
+                width: 25px;
+                height: 11px;
+            }
+            #w317 {
+                position: absolute;
+                top: 991px;
+                left: 981px;
+                width: 25px;
+                height: 11px;
+            }
+            #w318 {
+                position: absolute;
+                top: 914px;
+                left: 1165px;
+                width: 11px;
+                height: 25px;
+            }
+            #w319 {
+                position: absolute;
+                top: 934px;
+                left: 1000px;
+                width: 25px;
+                height: 11px;
+            }
+            #w320 {
+                position: absolute;
+                top: 953px;
+                left: 1005px;
+                width: 25px;
+                height: 11px;
+            }
+            #w321 {
+                position: absolute;
+                top: 976px;
+                left: 1005px;
+                width: 25px;
+                height: 11px;
+            }
+            #w322 {
+                position: absolute;
+                top: 991px;
+                left: 1005px;
+                width: 25px;
+                height: 11px;
+            }
+            #w323 {
+                position: absolute;
+                top: 934px;
+                left: 1025px;
+                width: 25px;
+                height: 11px;
+            }
+            #w324 {
+                position: absolute;
+                top: 934px;
+                left: 1050px;
+                width: 25px;
+                height: 11px;
+            }
+            #w325 {
+                position: absolute;
+                top: 934px;
+                left: 1073px;
+                width: 25px;
+                height: 11px;
+            }
+            #w326 {
+                position: absolute;
+                top: 934px;
+                left: 1098px;
+                width: 25px;
+                height: 11px;
+            }
+            #w327 {
+                position: absolute;
+                top: 934px;
+                left: 1122px;
+                width: 25px;
+                height: 11px;
+            }
+            #w328 {
+                position: absolute;
+                top: 934px;
+                left: 1146px;
+                width: 25px;
+                height: 11px;
+            }
+            #w329 {
+                position: absolute;
+                top: 934px;
+                left: 1181px;
+                width: 11px;
+                height: 25px;
+            }
+            #w330 {
+                position: absolute;
+                top: 914px;
+                left: 1181px;
+                width: 11px;
+                height: 25px;
+            }
+            #w331 {
+                position: absolute;
+                top: 913px;
+                left: 1198px;
+                width: 11px;
+                height: 25px;
+            }
+            #w332 {
+                position: absolute;
+                top: 953px;
+                left: 1030px;
+                width: 25px;
+                height: 11px;
+            }
+            #w333 {
+                position: absolute;
+                top: 953px;
+                left: 1054px;
+                width: 25px;
+                height: 11px;
+            }
+            #w334 {
+                position: absolute;
+                top: 953px;
+                left: 1078px;
+                width: 25px;
+                height: 11px;
+            }
+            #w335 {
+                position: absolute;
+                top: 953px;
+                left: 1103px;
+                width: 25px;
+                height: 11px;
+            }
+            #w336 {
+                position: absolute;
+                top: 953px;
+                left: 1128px;
+                width: 25px;
+                height: 11px;
+            }
+            #w337 {
+                position: absolute;
+                top: 953px;
+                left: 1150px;
+                width: 25px;
+                height: 11px;
+            }
+            #w338 {
+                position: absolute;
+                top: 953px;
+                left: 1162px;
+                width: 25px;
+                height: 11px;
+            }
+            #w339 {
+                position: absolute;
+                top: 976px;
+                left: 1028px;
+                width: 25px;
+                height: 11px;
+            }
+            #w340 {
+                position: absolute;
+                top: 991px;
+                left: 1029px;
+                width: 25px;
+                height: 11px;
+            }
+            #w341 {
+                position: absolute;
+                top: 991px;
+                left: 1050px;
+                width: 25px;
+                height: 11px;
+            }
+            #w342 {
+                position: absolute;
+                top: 976px;
+                left: 1053px;
+                width: 25px;
+                height: 11px;
+            }
+            #w343 {
+                position: absolute;
+                top: 913px;
+                left: 1215px;
+                width: 11px;
+                height: 25px;
+            }
+            #w344 {
+                position: absolute;
+                top: 938px;
+                left: 1215px;
+                width: 11px;
+                height: 25px;
+            }
+            #w345 {
+                position: absolute;
+                top: 954px;
+                left: 1215px;
+                width: 11px;
+                height: 25px;
+            }
+            #w346 {
+                position: absolute;
+                top: 934px;
+                left: 1198px;
+                width: 11px;
+                height: 25px;
+            }
+            #w347 {
+                position: absolute;
+                top: 957px;
+                left: 1198px;
+                width: 11px;
+                height: 25px;
+            }
+            #w348 {
+                position: absolute;
+                top: 976px;
+                left: 1077px;
+                width: 25px;
+                height: 11px;
+            }
+            #w349 {
+                position: absolute;
+                top: 976px;
+                left: 1102px;
+                width: 25px;
+                height: 11px;
+            }
+            #w350 {
+                position: absolute;
+                top: 976px;
+                left: 1122px;
+                width: 25px;
+                height: 11px;
+            }
+            #w351 {
+                position: absolute;
+                top: 976px;
+                left: 1146px;
+                width: 25px;
+                height: 11px;
+            }
+            #w352 {
+                position: absolute;
+                top: 976px;
+                left: 1170px;
+                width: 25px;
+                height: 11px;
+            }
+            #w353 {
+                position: absolute;
+                top: 976px;
+                left: 1179px;
+                width: 25px;
+                height: 11px;
+            }
+            #w354 {
+                position: absolute;
+                top: 963px;
+                left: 1215px;
+                width: 11px;
+                height: 25px;
+            }
+            #w355 {
+                position: absolute;
+                top: 991px;
+                left: 1075px;
+                width: 25px;
+                height: 11px;
+            }
+            #w356 {
+                position: absolute;
+                top: 991px;
+                left: 1100px;
+                width: 25px;
+                height: 11px;
+            }
+            #w357 {
+                position: absolute;
+                top: 991px;
+                left: 1124px;
+                width: 25px;
+                height: 11px;
+            }
+            #w358 {
+                position: absolute;
+                top: 991px;
+                left: 1145px;
+                width: 25px;
+                height: 11px;
+            }
+            #w359 {
+                position: absolute;
+                top: 991px;
+                left: 1170px;
+                width: 25px;
+                height: 11px;
+            }
+            #w360 {
+                position: absolute;
+                top: 991px;
+                left: 1195px;
+                width: 25px;
+                height: 11px;
+            }
+            #w362 {
+                position: absolute;
+                top: 973px;
+                left: 1215px;
+                width: 11px;
+                height: 25px;
+            }
+            #txtArea_44 {
+                position: absolute;
+                top: 116px;
+                left: 1062px;
+                width: 50px;
+                height: 20px;
+                text-align: center;
+                z-index: 900;
+            }
+            #txtArea_45 {
+                position: absolute;
+                top: 153px;
+                left: 1066px;
+                width: 50px;
+                height: 20px;
+                text-align: center;
+                z-index: 900;
+            }
+            #txtArea_46 {
+                position: absolute;
+                top: 186px;
+                left: 1064px;
+                width: 50px;
+                height: 20px;
+                text-align: center;
+                z-index: 900;
+            }
+        </style>
+    </head>
+    <body>
+
+
+
+        <div id="report"></div>
+
+
+
+
+
+
+        <div id="hud" class="dialogBox">
+            <div class="dbToolbar"><span class="ui-icon ui-icon-circle-minus"></span></div>
+            <div class="dbTitle"><span class="thumb ui-icon ui-icon-grip-dotted-vertical"></span> Objective Map </div>
+            <div id="mapImage">
+                <div id="omico56" class="ico ico sipr diagramIcons ui-draggable" style="top:45px;left:10px"></div>
+                <div id="redline1" class="ico horLin bg_color_clear ter ui-draggable" style="top:60px;left:80px"></div>
+                <div id="omico58" class="ico ico router diagramIcons ui-draggable" style="top:50px;left:315px"></div>
+                <div id="omico59" class="ico ico workgroup-switch diagramIcons ui-draggable" style="top:50px;left:160px"></div>
+                <div id="redline3" class="ico horLin bg_color_clear ter ui-draggable" style="top:60px;left:225px"></div>
+                <div id="blueCirc2" class="ico bcirc ter ui-draggable" style="top:25px;left:175px"></div>
+                <div id="omico62" class="ico ico workgroup-switch diagramIcons ui-draggable" style="top:50px;left:445px"></div>
+                <div id="redline4" class="ico horLin bg_color_clear ter ui-draggable" style="top:60px;left:365px"></div>
+                <div id="redline6" class="ico vertLin bg_color_clear ter ui-draggable" style="top:80px;left:485px"></div>
+                <div id="blueCirc5" class="ico bcirc ter ui-draggable" style="top:25px;left:460px"></div>
+                <div id="omico66" class="ico ico ciscoCloud diagramIcons ui-draggable" style="top:180px;left:425px"></div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="taskList" class="dialogBox">
+            <div class="dbToolbar"><span class="ui-icon ui-icon-circle-minus"></span></div>
+            <div class="dbTitle"><span class="thumb ui-icon ui-icon-grip-dotted-vertical"></span> Objective List </div>
+            <div id="bdyCopy">
+                <p><strong>STT+ (TDMA) SIPR through NIPR</strong></p>
+                <p><strong>Add Title Information</strong></p>
+                <ul class="taskList">
+                    <li class="answer5"><strong class="step1">Choose the appropriate internal connection from G0/10 on the NT2S to the interface going to the STT+. </strong>
+                        <div class="answer5">Once the data packet reaches the trunk port G0/51 of the NT2S, the packet will then be forwarded to the STT+ with the onboard AES router; for the packet to continue to the distant end. </div>
+                    </li>
+                    <li class="answer4"><strong class="step2">Choose the appropriate connection from G0/0 to the NT2S.</strong>
+                        <div class="answer4">Since the destination of the packet is the AES router onboard the STT+, the router will analyze the routing table, locate the destination network, and reassign the packet to the G0/0.3 sub-interface (giving it a VLAN tag of 3) which is the network associated with the STT+. The data packet (with a VLAN tag of 3) will then enter trunk port G0/10 of the NT2S which allows VLAN 3 traffic. </div>
+                    </li>
+                    <li class="answer3"><strong class="step3">Choose the appropriate connection from G0/10 of the NT2S to the NT2R.</strong>
+                        <div class="answer3">The data packet with the tag of VLAN 175 will be directed by the switch going to the sub-interface G0/0.175 on the NT2R. 
+                            The router has a physical port of G0/0 where the traffic enters the router; within the physical port there are logical sub-interface assignments configured. The sub-interfaces of the router are the logical assignments of the different lanes of traffic that will traverse the network. When a sub-interface is configured inside the physical port of the router, the encapsulation statement determines the lane in which the packet will travel.  
+                            The data packet with the tag of VLAN 175 enters G0/0, more specifically, G0/0.175, due to the VLAN ID 175 being assigned to the sub-interface. </div>
+                    </li>
+                    <li class="answer2"><strong class="step4">Choose the appropriate internal connection from G0/12 of the NT2S to the trunk port connected to the NT2R.</strong>
+                        <div class="answer2">The data packet (with VLAN tag of 175) will be forwarded to trunk port G0/10 which allows VLAN 175 traffic.</div>
+                    </li>
+                    <li class="answer1"><strong class="step5">Choose the appropriate connection from the SIPR Cloud (TACLANE#1) going to NT2S.</strong>
+                        <div class="answer1">The encrypted data packet (with VLAN tag of 175) will now enter G0/12 of the NT2S to continue its path to the STT+.</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="faq" class="dialogBox">
+            <div class="dbToolbar"><span class="ui-icon ui-icon-circle-minus"></span></div>
+            <div class="dbTitle"><span class="thumb ui-icon ui-icon-grip-dotted-vertical"></span> Help</div>
+            <div id="faqCopy"> </div>
+        </div>
+        <div id="container">
+            <div id="title">NIPR </div>
+            <div class="clearer"></div>
+            <div id="mainBdy">
+                <div id="mbToolBar"></div>
+                <div id="targets">
+                    <div id="w1" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w2" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w3" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w4" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w5" class="target">
+                        <div class="targetTitle">12</div>
+                    </div>
+                    <div id="w6" class="target">
+                        <div class="targetTitle">49</div>
+                    </div>
+                    <div id="w7" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w9" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w10" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w11" class="target">
+                        <div class="targetTitle">23</div>
+                    </div>
+                    <div id="w12" class="target">
+                        <div class="targetTitle">50</div>
+                    </div>
+                    <div id="w13" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w14" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w15" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w16" class="target">
+                        <div class="targetTitle">15</div>
+                    </div>
+                    <div id="w17" class="target">
+                        <div class="targetTitle">39</div>
+                    </div>
+                    <div id="w18" class="target">
+                        <div class="targetTitle">40</div>
+                    </div>
+                    <div id="w19" class="target">
+                        <div class="targetTitle">LAN 1</div>
+                    </div>
+                    <div id="w20" class="target">
+                        <div class="targetTitle">LAN 2</div>
+                    </div>
+                    <div id="w21" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w22" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w23" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w24" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w25" class="target">
+                        <div class="targetTitle">17</div>
+                    </div>
+                    <div id="w26" class="target">
+                        <div class="targetTitle">16</div>
+                    </div>
+                    <div id="w27" class="target">
+                        <div class="targetTitle">14</div>
+                    </div>
+                    <div id="w28" class="target">
+                        <div class="targetTitle">15</div>
+                    </div>
+                    <div id="w29" class="target">
+                        <div class="targetTitle">E0/1.58</div>
+                    </div>
+                    <div id="w30" class="target">
+                        <div class="targetTitle">E0/0.358</div>
+                    </div>
+                    <div id="w31" class="target">
+                        <div class="targetTitle">E0/1.233</div>
+                    </div>
+                    <div id="w32" class="target">
+                        <div class="targetTitle">E0/1</div>
+                    </div>
+                    <div id="w33" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w34" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w35" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w36" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w37" class="target">
+                        <div class="targetTitle">E0/0.333</div>
+                    </div>
+                    <div id="w38" class="target">
+                        <div class="targetTitle">E0/0</div>
+                    </div>
+                    <div id="w39" class="target">
+                        <div class="targetTitle">E0/1.224</div>
+                    </div>
+                    <div id="w40" class="target">
+                        <div class="targetTitle">E0/1.222</div>
+                    </div>
+                    <div id="w41" class="target">
+                        <div class="targetTitle">E0/0.324</div>
+                    </div>
+                    <div id="w42" class="target">
+                        <div class="targetTitle">E0/0.322</div>
+                    </div>
+                    <div id="w43" class="target">
+                        <div class="targetTitle">21</div>
+                    </div>
+                    <div id="w44" class="target">
+                        <div class="targetTitle">1</div>
+                    </div>
+                    <div id="w45" class="target">
+                        <div class="targetTitle">2</div>
+                    </div>
+                    <div id="w46" class="target">
+                        <div class="targetTitle">3</div>
+                    </div>
+                    <div id="w47" class="target">
+                        <div class="targetTitle">4</div>
+                    </div>
+                    <div id="w48" class="target">
+                        <div class="targetTitle">6</div>
+                    </div>
+                    <div id="w49" class="target">
+                        <div class="targetTitle">7</div>
+                    </div>
+                    <div id="w50" class="target">
+                        <div class="targetTitle">8</div>
+                    </div>
+                    <div id="w51" class="target">
+                        <div class="targetTitle">5</div>
+                    </div>
+                    <div id="w52" class="target">
+                        <div class="targetTitle">18</div>
+                    </div>
+                    <div id="w53" class="target">
+                        <div class="targetTitle">19</div>
+                    </div>
+                    <div id="w54" class="target">
+                        <div class="targetTitle">10</div>
+                    </div>
+                    <div id="w55" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w56" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w57" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w58" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w59" class="target">
+                        <div class="targetTitle">GE 0/0</div>
+                    </div>
+                    <div id="w60" class="target">
+                        <div class="targetTitle">52</div>
+                    </div>
+                    <div id="w61" class="target">
+                        <div class="targetTitle">51</div>
+                    </div>
+                    <div id="w62" class="target">
+                        <div class="targetTitle">GE 0/1</div>
+                    </div>
+                    <div id="w63" class="target">
+                        <div class="targetTitle">T1 0/0/0</div>
+                    </div>
+                    <div id="w64" class="target">
+                        <div class="targetTitle">T1 0/0/0</div>
+                    </div>
+                    <div id="w65" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w66" class="target">
+                        <div class="targetTitle">Redcom Slice </div>
+                    </div>
+                    <div id="w68" class="target">
+                        <div class="targetTitle">STT + (TDMA)</div>
+                    </div>
+                    <div id="w69" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w70" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w71" class="target">
+                        <div class="targetTitle">44</div>
+                    </div>
+                    <div id="w72" class="target">
+                        <div class="targetTitle">aPB.1</div>
+                    </div>
+                    <div id="w73" class="target">
+                        <div class="targetTitle">aPB.2</div>
+                    </div>
+                    <div id="w74" class="target">
+                        <div class="targetTitle">MGMT</div>
+                    </div>
+                    <div id="w75" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w76" class="target">
+                        <div class="targetTitle">43</div>
+                    </div>
+                    <div id="w77" class="target">
+                        <div class="targetTitle">11</div>
+                    </div>
+                    <div id="w78" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w79" class="target">
+                        <div class="targetTitle">aPA.1</div>
+                    </div>
+                    <div id="w80" class="target">
+                        <div class="targetTitle">20</div>
+                    </div>
+                    <div id="w81" class="target">
+                        <div class="targetTitle">22</div>
+                    </div>
+                    <div id="w82" class="target">
+                        <div class="targetTitle">9</div>
+                    </div>
+                    <div id="w83" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w84" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w85" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w86" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w87" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w88" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w89" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w90" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w91" class="target">
+                        <div class="targetTitle">Mgmt PC </div>
+                    </div>
+                    <div id="w92" class="target">
+                        <div class="targetTitle">NIPR MRV </div>
+                    </div>
+                    <div id="w93" class="target">
+                        <div class="targetTitle">NIPR CM </div>
+                    </div>
+                    <div id="w94" class="target">
+                        <div class="targetTitle">NIPR CM KVM </div>
+                    </div>
+                    <div id="w95" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w96" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w97" class="target">
+                        <div class="targetTitle">E0/1</div>
+                    </div>
+                    <div id="w98" class="target">
+                        <div class="targetTitle">E0/0</div>
+                    </div>
+                    <div id="w99" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w101" class="target">
+                        <div class="targetTitle">FE 0/0</div>
+                    </div>
+                    <div id="w102" class="target">
+                        <div class="targetTitle">FE 0/1</div>
+                    </div>
+                    <div id="w103" class="target">
+                        <div class="targetTitle">S0/0/0</div>
+                    </div>
+                    <div id="w104" class="target">
+                        <div class="targetTitle">S0/0/1</div>
+                    </div>
+                    <div id="w105" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w106" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w107" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w108" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w109" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w110" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w111" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w112" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w113" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w114" class="target">
+                        <div class="targetTitle">P1</div>
+                    </div>
+                    <div id="w115" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w116" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w117" class="target">
+                        <div class="targetTitle">P0</div>
+                    </div>
+                    <div id="w118" class="target">
+                        <div class="targetTitle">P2</div>
+                    </div>
+                    <div id="w119" class="target">
+                        <div class="targetTitle">P3</div>
+                    </div>
+                    <div id="w121" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w122" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w123" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w124" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w125" class="target">
+                        <div class="targetTitle">5-1</div>
+                    </div>
+                    <div id="w126" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w127" class="target">
+                        <div class="targetTitle">2A</div>
+                    </div>
+                    <div id="w128" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w129" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w130" class="target">
+                        <div class="targetTitle">5-2</div>
+                    </div>
+                    <div id="w131" class="target">
+                        <div class="targetTitle">2B</div>
+                    </div>
+                    <div id="w132" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w133" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w134" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w135" class="target">
+                        <div class="targetTitle">SER 0/1/0</div>
+                    </div>
+                    <div id="w136" class="target">
+                        <div class="targetTitle">SER 0/1/1</div>
+                    </div>
+                    <div id="w137" class="target">
+                        <div class="targetTitle">SER 0/1/2</div>
+                    </div>
+                    <div id="w138" class="target">
+                        <div class="targetTitle">SER 0/1/3</div>
+                    </div>
+                    <div id="w139" class="target">
+                        <div class="targetTitle">SER 0/2/0</div>
+                    </div>
+                    <div id="w140" class="target">
+                        <div class="targetTitle">SER 0/2/1</div>
+                    </div>
+                    <div id="w141" class="target">
+                        <div class="targetTitle">SER 0/2/2</div>
+                    </div>
+                    <div id="w142" class="target">
+                        <div class="targetTitle">SER 0/2/3</div>
+                    </div>
+                    <div id="w143" class="target">
+                        <div class="targetTitle">1-1</div>
+                    </div>
+                    <div id="w144" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w145" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w146" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w147" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w148" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w149" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w150" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w152" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w153" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w154" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w155" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w156" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w157" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w158" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w161" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w162" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w163" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w164" class="target">
+                        <div class="targetTitle">1-2</div>
+                    </div>
+                    <div id="w166" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w167" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w168" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w170" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w171" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w172" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w173" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w174" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w175" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w176" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w177" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w178" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w179" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w180" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w181" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w182" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w183" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w184" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w185" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w186" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w187" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w188" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w189" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w190" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w191" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w192" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w194" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w195" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w196" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w197" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w198" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w199" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w200" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w201" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w202" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w203" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w204" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w205" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w208" class="target">
+                        <div class="targetTitle">2-1</div>
+                    </div>
+                    <div id="w209" class="target">
+                        <div class="targetTitle">2-2</div>
+                    </div>
+                    <div id="w210" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w211" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w212" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w213" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w214" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w215" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w216" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w217" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w218" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w219" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w220" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w221" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w222" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w223" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w224" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w225" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w226" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w227" class="target">
+                        <div class="targetTitle">MUX 1/3</div>
+                    </div>
+                    <div id="w228" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w229" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w230" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w231" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w232" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w233" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w234" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w235" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w236" class="target">
+                        <div class="targetTitle">MUX 1/4</div>
+                    </div>
+                    <div id="w237" class="target">
+                        <div class="targetTitle">MUX 2/2</div>
+                    </div>
+                    <div id="w238" class="target">
+                        <div class="targetTitle">MUX 2/3</div>
+                    </div>
+                    <div id="w239" class="target">
+                        <div class="targetTitle">FO 1</div>
+                    </div>
+                    <div id="w240" class="target">
+                        <div class="targetTitle">FO 2</div>
+                    </div>
+                    <div id="w241" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w242" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w243" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w244" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w245" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w246" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w247" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w248" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w249" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w250" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w251" class="target">
+                        <div class="targetTitle">3-2</div>
+                    </div>
+                    <div id="w252" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w253" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w254" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w255" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w256" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w257" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w258" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w259" class="target">
+                        <div class="targetTitle">3-1</div>
+                    </div>
+                    <div id="w260" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w261" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w262" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w263" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w264" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w265" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w267" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w268" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w269" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w270" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w271" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w272" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w273" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w274" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w275" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w276" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w277" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w278" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w279" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w280" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w281" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w282" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w283" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w284" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w285" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w286" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w287" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w289" class="target">
+                        <div class="targetTitle">3B</div>
+                    </div>
+                    <div id="w290" class="target">
+                        <div class="targetTitle">3A</div>
+                    </div>
+                    <div id="w291" class="target">
+                        <div class="targetTitle">1A</div>
+                    </div>
+                    <div id="w292" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w293" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w294" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w295" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w296" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w297" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w298" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w299" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w300" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w301" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w302" class="target">
+                        <div class="targetTitle">1B</div>
+                    </div>
+                    <div id="w303" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w304" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w305" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w306" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w307" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w308" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w309" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w310" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w311" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w312" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w313" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w314" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w315" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w316" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w317" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w318" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w319" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w320" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w321" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w322" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w323" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w324" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w325" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w326" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w327" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w328" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w329" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w330" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w331" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w332" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w333" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w334" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w335" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w336" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w337" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w338" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w339" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w340" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w341" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w342" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w343" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w344" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w345" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w346" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w347" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w348" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w349" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w350" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w351" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w352" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w353" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w354" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w355" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w356" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w357" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w358" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w359" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w360" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                    <div id="w362" class="target">
+                        <div class="targetTitle"></div>
+                    </div>
+                </div>
+                <div id="mapImageContainer">
+                    <div id="bgBox_1" class="bgBox">&nbsp;</div>
+                    <div id="bgBox_2" class="bgBox">&nbsp;</div>
+                    <div id="txtArea_4" class="titles">SEP (1000)
+                        TFOCA
+                        UAC &nbsp;</div>
+                    <div id="txtArea_5" class="titles">Subscriber&nbsp;</div>
+                    <div id="bgBox_3" class="bgBox">&nbsp;</div>
+                    <div id="txtArea_6" class="titles">Subscriber&nbsp;</div>
+                    <div id="txtArea_7" class="titles">SEP (1000)
+                        TFOCA
+                        UAC &nbsp;</div>
+                    <div id="bgBox_4" class="bgBox">&nbsp;</div>
+                    <div id="txtArea_8" class="titles">NIPR AV &nbsp;</div>
+                    <div id="txtArea_9" class="titles">Voice&nbsp;</div>
+                    <div id="txtArea_10" class="titles">Trusted&nbsp;</div>
+                    <div id="bgBox_6" class="bgBox">&nbsp;</div>
+                    <div id="txtArea_11" class="titles">Untrusted&nbsp;</div>
+                    <div id="txtArea_12" class="titles">NHFW&nbsp;</div>
+                    <div id="bgBox_7" class="bgBox">&nbsp;</div>
+                    <div id="bgBox_8" class="bgBox">&nbsp;</div>
+                    <div id="bgBox_9" class="bgBox">&nbsp;</div>
+                    <div id="bgBox_10" class="bgBox">&nbsp;</div>
+                    <div id="txtArea_13" class="titles">VLAN 58/59/222&nbsp;</div>
+                    <div id="txtArea_14" class="titles">VLAN 58/59/222&nbsp;</div>
+                    <div id="txtArea_15" class="titles">VLAN 330&nbsp;</div>
+                    <div id="txtArea_16" class="titles">VLAN 332&nbsp;</div>
+                    <div id="txtArea_17" class="titles">VLAN 222/224/
+                        233/358&nbsp;</div>
+                    <div id="txtArea_18" class="titles">From SIPR 
+                        (TACLANE #1)&nbsp;</div>
+                    <div id="bgBox_11" class="bgBox">&nbsp;</div>
+                    <div id="bgBox_12" class="bgBox">&nbsp;</div>
+                    <div id="txtArea_19" class="titles">GE 0/0.3/6/175/322/
+                        324/331/333/358&nbsp;</div>
+                    <div id="bgBox_13" class="bgBox">&nbsp;</div>
+                    <div id="bgBox_14" class="bgBox">&nbsp;</div>
+                    <div id="txtArea_20" class="titles">VLAN 222&nbsp;</div>
+                    <div id="txtArea_21" class="titles">VLAN 222&nbsp;</div>
+                    <div id="txtArea_22" class="titles">VLAN 222&nbsp;</div>
+                    <div id="txtArea_23" class="titles">VLAN 58&nbsp;</div>
+                    <div id="txtArea_24" class="titles">VLAN 3&nbsp;</div>
+                    <div id="txtArea_25" class="titles">VLAN 3/6/175/
+                        322/324/
+                        331/333/358&nbsp;</div>
+                    <div id="txtArea_26" class="titles">VLAN 332&nbsp;</div>
+                    <div id="bgBox_15" class="bgBox">&nbsp;</div>
+                    <div id="txtArea_27" class="titles">NPFW&nbsp;</div>
+                    <div id="bgBox_16" class="bgBox">&nbsp;</div>
+                    <div id="txtArea_28" class="titles">NT1R (2811)&nbsp;</div>
+                    <div id="bgBox_17" class="bgBox">&nbsp;</div>
+                    <div id="bgBox_18" class="bgBox">&nbsp;</div>
+                    <div id="txtArea_30" class="titles">HSD C21&nbsp;</div>
+                    <div id="bgBox_19" class="bgBox">&nbsp;</div>
+                    <div id="txtArea_31" class="titles">C
+                        17&nbsp;</div>
+                    <div id="txtArea_32" class="titles">C
+                        18&nbsp;</div>
+                    <div id="txtArea_33" class="titles">NX-1000&nbsp;</div>
+                    <div id="txtArea_34" class="titles">SA-TRK&nbsp;</div>
+                    <div id="bgBox_20" class="bgBox">&nbsp;</div>
+                    <div id="txtArea_35" class="titles">STEP/DISA
+                        (FDMA)&nbsp;</div>
+                    <div id="bgBox_21" class="bgBox">&nbsp;</div>
+                    <div id="txtArea_37" class="titles">NT2R(3825)&nbsp;</div>
+                    <div id="txtArea_38" class="titles">HWIC 4T&nbsp;</div>
+                    <div id="txtArea_39" class="titles">HWIC 4T&nbsp;</div>
+                    <div id="bgBox_24" class="bgBox">&nbsp;</div>
+                    <div id="bgBox_25" class="bgBox">&nbsp;</div>
+                    <div id="txtArea_40" class="titles">FLEXMUX&nbsp;</div>
+                    <div id="bgBox_26" class="bgBox">&nbsp;</div>
+                    <div id="txtArea_41" class="titles">HCLOS&nbsp;</div>
+                    <div id="bgBox_27" class="bgBox">&nbsp;</div>
+                    <div id="txtArea_42" class="titles">KIV-7M x 3&nbsp;</div>
+                    <div id="txtArea_43" class="titles">HUB (FDMA)&nbsp;</div>
+                    <div id="txtArea_44" class="titles">Data&nbsp;</div>
+                    <div id="txtArea_45" class="titles">Mgmt&nbsp;</div>
+                    <div id="txtArea_46" class="titles">IA &nbsp;</div>
+                </div>
+            </div>
+            <div class="clearer"></div>
+        </div>
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script> 
+        <script type="text/javascript" src="js/jquery.jsPlumb-1.3.16-all-min.js"></script> 
+        <script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script> 
+        <script type="text/javascript" src="js/controller/dialogBox.js"></script> 
+        <script>
+            var objMapStart = 1;
+            
+            function addTargets() {
+                jsPlumb.addEndpoint(w1, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/cloudSmall.png"));
+                jsPlumb.addEndpoint(w2, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w3, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w4, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w5, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w6, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w7, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w9, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w10, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w11, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w12, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w13, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w14, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w15, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w16, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w17, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w18, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w19, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w20, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w21, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w22, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w23, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w24, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w25, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w26, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w27, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w28, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w29, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w30, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w31, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w32, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w33, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w34, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w35, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w36, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w37, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w38, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w39, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w40, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w41, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w42, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w43, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w44, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w45, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w46, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w47, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w48, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w49, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w50, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w51, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w52, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w53, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w54, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w55, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w56, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w57, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w58, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w59, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w60, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w61, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w62, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w63, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w64, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w65, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w66, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w68, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w69, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w70, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w71, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w72, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w73, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w74, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w75, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w76, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w77, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w78, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w79, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w80, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w81, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w82, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w83, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w84, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w85, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w86, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w87, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w88, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w89, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w90, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w91, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w92, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w93, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w94, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w95, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w96, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w97, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w98, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w99, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w101, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w102, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w103, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w104, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w105, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w106, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w107, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w108, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w109, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w110, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w111, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w112, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w113, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w114, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w115, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w116, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w117, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w118, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w119, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w121, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/triangleRight.png"));
+                jsPlumb.addEndpoint(w122, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/triangleRight.png"));
+                jsPlumb.addEndpoint(w123, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w124, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w125, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w126, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w127, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w128, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w129, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w130, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w131, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w132, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w133, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w134, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w135, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w136, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w137, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w138, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w139, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w140, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w141, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w142, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w143, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w144, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w145, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w146, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hHump.png"));
+                jsPlumb.addEndpoint(w147, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w148, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w149, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w150, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w152, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hHump.png"));
+                jsPlumb.addEndpoint(w153, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hHump.png"));
+                jsPlumb.addEndpoint(w154, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w155, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w156, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w157, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w158, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w161, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w162, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w163, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w164, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w166, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w167, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hHump.png"));
+                jsPlumb.addEndpoint(w168, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hHump.png"));
+                jsPlumb.addEndpoint(w170, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w171, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w172, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w173, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w174, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hHump.png"));
+                jsPlumb.addEndpoint(w175, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hHump.png"));
+                jsPlumb.addEndpoint(w176, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w177, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w178, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w179, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w180, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w181, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w182, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hHump.png"));
+                jsPlumb.addEndpoint(w183, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hHump.png"));
+                jsPlumb.addEndpoint(w184, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w185, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w186, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w187, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w188, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w189, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w190, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w191, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w192, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w194, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w195, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w196, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w197, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w198, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w199, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w200, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w201, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w202, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w203, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w204, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w205, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w208, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w209, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w210, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w211, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w212, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hHump.png"));
+                jsPlumb.addEndpoint(w213, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w214, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w215, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w216, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w217, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w218, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w219, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w220, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w221, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w222, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w223, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w224, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w225, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w226, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w227, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w228, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w229, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w230, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w231, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w232, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w233, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w234, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w235, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w236, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w237, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w238, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortLarge.png"));
+                jsPlumb.addEndpoint(w239, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w240, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w241, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w242, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w243, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w244, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w245, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w246, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w247, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w248, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w249, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w250, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w251, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w252, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hHump.png"));
+                jsPlumb.addEndpoint(w253, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w254, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w255, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w256, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w257, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w258, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w259, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w260, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w261, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w262, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w263, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w264, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w265, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w267, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w268, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w269, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w270, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w271, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w272, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w273, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w274, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w275, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w276, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hHump.png"));
+                jsPlumb.addEndpoint(w277, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w278, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w279, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w280, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w281, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w282, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w283, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w284, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w285, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w286, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w287, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w289, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w290, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w291, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w292, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w293, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w294, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w295, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w296, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w297, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w298, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w299, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w300, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w301, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w302, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/genericPortSmall.png"));
+                jsPlumb.addEndpoint(w303, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w304, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w305, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w306, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w307, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w308, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w309, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w310, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w311, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w312, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w313, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w314, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w315, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w316, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w317, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w318, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w319, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w320, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w321, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w322, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w323, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w324, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w325, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w326, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w327, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w328, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w329, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w330, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w331, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w332, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w333, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w334, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w335, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w336, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w337, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w338, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w339, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w340, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w341, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w342, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w343, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w344, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w345, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w346, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w347, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w348, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w349, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w350, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w351, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w352, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w353, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w354, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+                jsPlumb.addEndpoint(w355, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w356, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w357, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w358, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w359, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w360, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/hLine.png"));
+                jsPlumb.addEndpoint(w362, {anchor: "Center"}, buildAnchor(true, true, "#ffbb00", "images/vLine.png"));
+            }
+        
+            var numTasks = 6;
+            var redlines = ["redline1", "blueCirc2", "redline3", "redline4", "blueCirc5", "redline6"];
+            var mapDragPoints = ['cloudSmall.png', 'hLine.png', 'hLine.png', 'hLine.png', 'genericPortSmall.png', 'genericPortSmall.png', 'vLine.png', 'vLine.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortSmall.png', 'vLine.png', 'vLine.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortLarge.png', 'genericPortLarge.png', 'vLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortLarge.png', 'vLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortSmall.png', 'vLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'genericPortLarge.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortLarge.png', 'genericPortSmall.png', 'genericPortSmall.png', 'vLine.png', 'genericPortLarge.png', 'genericPortLarge.png', 'vLine.png', 'vLine.png', 'genericPortSmall.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortLarge.png', 'vLine.png', 'genericPortSmall.png', 'genericPortSmall.png', 'vLine.png', 'genericPortLarge.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortSmall.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortLarge.png', 'vLine.png', 'vLine.png', 'genericPortLarge.png', 'genericPortLarge.png', 'vLine.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortLarge.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'hLine.png', 'hLine.png', 'genericPortSmall.png', 'hLine.png', 'hLine.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortSmall.png', 'triangleRight.png', 'triangleRight.png', 'hLine.png', 'hLine.png', 'genericPortSmall.png', 'hLine.png', 'genericPortSmall.png', 'hLine.png', 'hLine.png', 'genericPortSmall.png', 'genericPortSmall.png', 'hLine.png', 'hLine.png', 'hLine.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortSmall.png', 'vLine.png', 'hLine.png', 'hHump.png', 'vLine.png', 'vLine.png', 'hLine.png', 'vLine.png', 'hHump.png', 'hHump.png', 'hLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'genericPortSmall.png', 'hLine.png', 'hHump.png', 'hHump.png', 'vLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'hHump.png', 'hHump.png', 'vLine.png', 'vLine.png', 'vLine.png', 'hLine.png', 'hLine.png', 'vLine.png', 'hHump.png', 'hHump.png', 'vLine.png', 'vLine.png', 'hLine.png', 'hLine.png', 'vLine.png', 'vLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'vLine.png', 'vLine.png', 'hLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'genericPortSmall.png', 'genericPortSmall.png', 'hLine.png', 'hLine.png', 'hHump.png', 'hLine.png', 'vLine.png', 'vLine.png', 'hLine.png', 'vLine.png', 'hLine.png', 'hLine.png', 'vLine.png', 'vLine.png', 'hLine.png', 'vLine.png', 'vLine.png', 'hLine.png', 'hLine.png', 'genericPortLarge.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortLarge.png', 'genericPortSmall.png', 'genericPortSmall.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'genericPortSmall.png', 'hHump.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'vLine.png', 'hLine.png', 'genericPortSmall.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'vLine.png', 'vLine.png', 'hHump.png', 'vLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'genericPortSmall.png', 'genericPortSmall.png', 'genericPortSmall.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'genericPortSmall.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'vLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'vLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'vLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'hLine.png', 'vLine.png'];
+            var sourceId_arr = ["w1", "w5", "w54", "w59", "w54", "w61"];
+            var targetId_arr = ["w5", "w54", "w59", "w54", "w61", "w68"];
+            var blueCircCount = 12;
+            var blueCircArray = ["blueCirc2", "blueCirc5", "blueCirc2", "blueCirc5", "blueCirc2", "blueCirc5", "blueCirc2", "blueCirc5", "blueCirc2", "blueCirc5", "blueCirc2", "blueCirc5"];
+            for (var i = 0; i < blueCircArray.length; i++) {
+                $("#" + blueCircArray[i]).hide();
+            }
+            ;
+            for (var i = 0; i < numTasks; i++) {
+                $(".answer" + [i]).hide();
+            }
+            ;
+            $("li.answer1").show();</script><script type="text/javascript" src="js/TARDIS.js"></script>
+    </body>
+</html>
