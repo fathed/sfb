@@ -1,5 +1,5 @@
 <?php
-$path = 'projects'; // '.' for current
+$path = '../../projects'; // '.' for current
 $arr = array();
 foreach (new DirectoryIterator($path) as $file) {
     if ($file->isDot()) continue;
