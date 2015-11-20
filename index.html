@@ -25,6 +25,8 @@ and open the template in the editor.
     </head>
     <body>
 
+
+
         <div id='jqxWidget' style='height: 300px;'>
             <div id='jqxMenu' style='visibility: hidden; margin-left: 5px;'>
                 <ul>
@@ -51,15 +53,11 @@ and open the template in the editor.
                         </ul>
                     </li>
 
-                    <li>Objective Map
-                        <ul style='width: 240px;'>
-                            <li id="openObjective">Objective Map&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + F11</li>
-                        </ul>
+                    <li id="openObjective">Objective Map
+
                     </li>
-                    <li>Task List
-                        <ul style='width: 220px;'>
-                            <li id="openTaskList">Task List&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + F12</li>
-                        </ul>
+                    <li id="openTaskList">Task List
+
                     </li>
 
                     <!--
@@ -88,17 +86,17 @@ and open the template in the editor.
 
 
 
+        <div id="nameDialogBox" class="dialogBoxes">
 
+            <input id="projectNameTxt" name="" type="text" placeholder="Enter a project name"><br>
+            <input name="" id="nameSubmitBtn" type="button" value="Submit"><input id="nameCancelBtn" name="" type="button" value="Cancel">
+        </div>
 
-
+        <div id="dialogMsbBx" class="dialogBoxes"><div id="msgHeader">SFB Msg<input id="msgBtn" name="" type="button" value="X"></div><div class="clearer"></div><div id="smgMSG"></div></div>
 
         <div id="container">
-            
-            <div id="nameDialogBox" class="dialogBoxes">
 
-                <input id="projectNameTxt" name="" type="text" placeholder="Enter a project name"><br>
-                <input name="" id="nameSubmitBtn" type="button" value="Submit"><input id="nameCancelBtn" name="" type="button" value="Cancel">
-            </div>
+
 
             <div id="stageIconsContainer"></div>
             <div id="projectsList" class="dialogBoxes"></div>
